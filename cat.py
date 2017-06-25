@@ -7,7 +7,7 @@ class Cat():
         self.screen = screen
 
 
-        self.image = pygame.image.load('images/cat.bmp')
+        self.image = pygame.image.load('images/cat1.bmp')
         self.rect = self.image.get_rect()
         self.screen_rect = screen.get_rect()
 
